@@ -1,4 +1,3 @@
-"# Know-Food" 
-"# know_food" 
-"# know_food" 
-# kf_vbox_linux
+Run the Install Docker Shell file to install docker and get the container up and running
+Add AWS credentials with
+docker exec -it <container_id> /bin/bash
