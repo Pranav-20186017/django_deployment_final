@@ -31,7 +31,7 @@ def main(request):
 		return render(request, "main.html")
 	if request.method == 'POST':
 		# print('###########',request.FILES)
-		img_url = "http://localhost:8000/static/StdImages/"
+		img_url = "StdImages/"
 		my_file = request.FILES['my_file']
 		fs = FileSystemStorage('media')
 		filename = fs.save(my_file.name, my_file)
